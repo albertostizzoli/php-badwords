@@ -12,6 +12,22 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    
+    <h1 class="text-center">PHP Badwords</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-start">Paragrafo vecchio</h4>
+                <p>Testo:</p>
+                <p>Lunghezza:</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-start">Paragrafo nuovo</h4>
+                <p>Testo:</p>
+                <p>Lunghezza:</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
