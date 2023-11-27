@@ -11,16 +11,16 @@
     <h1 class="text-center">PHP Badwords</h1>
     <div class="container">
         <form action="./result.php" method="GET">
-            <div class="input-group">
+            <div class="input-group mt-4">
                 <span class="input-group-text">Paragrafo</span>
                 <textarea class="form-control" name="phrase"></textarea>
             </div>
-            <div class="input-group">
+            <div class="input-group mt-4">
                 <span class="input-group-text">Parola nascosta</span>
                 <input type="text" class="form-control" name="word">
             </div>
             <div>
-                <button name="submit" class="btn btn-primary">Invia</button>
+                <button name="submit" class="btn btn-primary mt-4">Invia</button>
         </form>
     </div>
 </body>

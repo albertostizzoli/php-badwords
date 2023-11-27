@@ -16,19 +16,19 @@ $new_word = str_replace($word, '***', $phrase);
 </head>
 <body>
     <h1 class="text-center">PHP Badwords</h1>
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
-            <div class="col-12">
-                <h4 class="text-start">Paragrafo vecchio</h4>
-                <p>Testo:</p> <?php echo $phrase ?>
-                <p>Lunghezza:</p> <?php echo strlen($phrase) ?>
+            <div class="col-12 mt-5">
+                <h4 class="text-center">Paragrafo vecchio</h4>
+                <p class="fw-bold">Testo:</p> <?php echo $phrase ?>
+                <p class="fw-bold">Lunghezza:</p> <?php echo strlen($phrase) ?> 
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <h4 class="text-start">Paragrafo nuovo</h4>
-                <p>Testo:</p> <?php echo $new_word ?>
-                <p>Lunghezza:</p> <?php echo strlen($new_word) ?>
+            <div class="col-12 mt-5">
+                <h4 class="text-center">Paragrafo nuovo</h4>
+                <p class="fw-bold">Testo:</p> <?php echo $new_word ?>
+                <p class="fw-bold">Lunghezza:</p> <?php echo strlen($new_word) ?>
             </div>
         </div>
     </div>
