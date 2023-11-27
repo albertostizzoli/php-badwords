@@ -10,7 +10,7 @@
 <body>
     <h1 class="text-center">PHP Badwords</h1>
     <div class="container">
-        <form action="" method="GET">
+        <form action="./result.php" method="GET">
             <div class="input-group">
                 <span class="input-group-text">Paragrafo</span>
                 <textarea class="form-control" name="phrase"></textarea>
