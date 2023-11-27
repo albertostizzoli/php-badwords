@@ -1,5 +1,8 @@
 <?php
+$phrase = $_GET['phrase'];
+$word = $_GET['word'];
 
+$new_word = str_replace($word, '***', $phrase);
 ?>
 
 <!DOCTYPE html>
@@ -17,15 +20,15 @@
         <div class="row">
             <div class="col-12">
                 <h4 class="text-start">Paragrafo vecchio</h4>
-                <p>Testo:</p>
-                <p>Lunghezza:</p>
+                <p>Testo:</p> <?php echo $phrase ?>
+                <p>Lunghezza:</p> <?php echo strlen($phrase) ?>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
                 <h4 class="text-start">Paragrafo nuovo</h4>
-                <p>Testo:</p>
-                <p>Lunghezza:</p>
+                <p>Testo:</p> <?php echo $new_word ?>
+                <p>Lunghezza:</p> <?php echo strlen($new_word) ?>
             </div>
         </div>
     </div>
